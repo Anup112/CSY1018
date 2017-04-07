@@ -1,0 +1,88 @@
+body{
+padding: 0;
+margin-left:2%;
+margin-right: 2%;
+}
+h1,h2,h3,h4,h5,h6,p{margin: 0;padding: 0}
+.all{
+width:100%;
+
+}
+.call{
+background-color:silver;
+width:100%;
+overflow:hidden;
+margin:0px;
+}
+.call p{
+float:center;
+text-decoration:none;
+color:brown;
+display:flex;
+flex-direction:column;
+}
+header{
+text-align:center;
+color:white;z
+}
+nav{
+width:100%;
+
+}
+nav ul{
+list-style-type:none;
+padding:0;
+margin:0;
+background-color:silver;
+overflow:hidden;
+
+}
+nav ul li{
+float:left;
+}
+nav ul li a{
+text-decoration:none;
+display:block;
+padding:10px;
+}
+nav ul li a:hover{
+background-color:black;
+}
+section{
+  background-image:url("../image/sky.jpg");
+  height: 500px;
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+
+}
+form{
+  width:40%;
+}
+.loc{
+  width:40%;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+background-color:silver;
+}
+.icon{
+  display:flex;
+
+
+}
+.icon img{
+  width:60px;
+  height:60px;
+
+}
+.icon a{
+  padding:2px;
+    float:right;
+}
+
+
+
+.icon p:hover{background: gray;}
